@@ -6,6 +6,17 @@ body{
     margin: 0 auto;
 }
 
+input {
+    margin: auto;
+    width: 50%;
+  padding: 12px 20px;
+ 
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
 .header{
     top:0;
     background-color: #2E2E3A;
@@ -16,10 +27,17 @@ body{
     color: white;
     gap: 10%;
 }
+
 a{
     color: white;
     text-decoration: none;
 }
+
+.ask-question{
+    font-size: large;
+    font-weight:900;
+}
+
 #elephant{
     
 }
@@ -52,10 +70,12 @@ text-align: center;
 
 .subject-input{
     padding: 5px;
+    justify-content: center;
 }
 
 .question-input{
     padding: 5px;
+    justify-content: center;
 }
 
 .discussionContainer{
@@ -66,16 +86,14 @@ grid-column-gap: 20px;
 grid-row-gap: 20px; 
 border-radius: 30px;
 margin-left: 15%;
-margin-bottom: 15%;
+margin-bottom: 50%;
+background-color: #D9D9D9;
+margin-right: 15%;
+
 }
 
 .discussion1 { 
-    width: 485px;
-    height: 260px;
     grid-area: 1 / 1 / 2 / 2;
-    background-color: #D9D9D9;
-    margin-right: 15%;
-    color:#F34213
 } 
 
 .discussion2 { 
@@ -84,6 +102,7 @@ margin-bottom: 15%;
     background-color: #D9D9D9;
     margin-left: 15%;
 } 
+
 
 .discussion3 { 
    
