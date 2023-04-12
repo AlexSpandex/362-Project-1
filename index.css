@@ -4,17 +4,17 @@ body{
     font-family: 'Inter';
     font-size: 22px;
     margin: 0 auto;
+    text-align: center;
 }
 
 input {
     margin: auto;
     width: 50%;
-  padding: 12px 20px;
- 
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
 }
 
 .header{
@@ -28,14 +28,36 @@ input {
     gap: 10%;
 }
 
+.header-logo{
+    display: flex;
+    justify-content: flex-start; 
+  }
+  
+.header-buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: auto;
+    gap: 10%
+}
+    
+.login-signup{
+    margin-left: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin: auto;
+    align-content: space-evenly;
+    gap: 20%
+}
+
+#Sign-Up{
+    display: flex;
+    flex-direction: row;
+}
 a{
     color: white;
     text-decoration: none;
-}
-
-.ask-question{
-    font-size: large;
-    font-weight:900;
 }
 
 #elephant{
@@ -62,10 +84,14 @@ a{
 
 }
 
+
+
 .ask-question{
-color: #F34213;
-font-weight: bolder;
-text-align: center;
+    color: #F34213;
+    font-weight: bolder;
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
 }
 
 .subject-input{
@@ -79,18 +105,19 @@ text-align: center;
 }
 
 .discussionContainer{
-display: grid;
-grid-template-columns: repeat(2, 1fr); 
-grid-template-rows: repeat(2, 1fr); 
-grid-column-gap: 20px;
-grid-row-gap: 20px; 
-border-radius: 30px;
-margin-left: 15%;
-margin-bottom: 50%;
-background-color: #D9D9D9;
-margin-right: 15%;
-
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-bottom: 50%;
+    margin-top: 10%;
+    margin-right: 15%;
 }
+
+
 
 .discussion1 { 
     grid-area: 1 / 1 / 2 / 2;
@@ -105,14 +132,12 @@ margin-right: 15%;
 
 
 .discussion3 { 
-   
     grid-area: 2 / 1 / 3 / 2;
     background-color: #D9D9D9; 
     margin-left: 15%;
 } 
 
 .discussion4 { 
-   
     grid-area: 2 / 2 / 3 / 3;
     background-color: #D9D9D9;
     margin-left: 15%;
