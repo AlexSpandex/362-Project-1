@@ -106,15 +106,12 @@ a{
 
 .discussionContainer{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, 1fr); 
-    grid-column-gap: 20px;
-    grid-row-gap: 20px; 
-    border-radius: 30px;
-    margin-left: 15%;
-    margin-bottom: 50%;
-    margin-top: 10%;
-    margin-right: 15%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 h3{
@@ -122,32 +119,30 @@ h3{
 }
 
 .discussion-1 { 
-    bord
+    margin-top: 10%;
     grid-area: 1 / 1 / 2 / 2;
     border-radius: 10%;
-    margin-left: 15%;
+    
    background-color: #d9d9d9;
 } 
 
 .discussion-2 { 
-    grid-area: 1 / 2 / 2 / 3; 
+    grid-area: 2 / 1 / 3 / 2;
     border-radius: 10%;
-    margin-left: 15%;
+    
    background-color: #d9d9d9;
 } 
 
 
 .discussion-3 { 
-    grid-area: 2 / 1 / 3 / 2;
-    margin-left: 15%;
+    grid-area: 3 / 1 / 4 / 2;
     border-radius: 10%;
     background-color: #d9d9d9;
 } 
 
 .discussion-4 { 
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: 4 / 1 / 5 / 2;
     border-radius: 10%;
-    margin-left: 15%;
     background-color: #d9d9d9;
 
  } 
