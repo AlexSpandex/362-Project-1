@@ -123,6 +123,18 @@ h3{
     background-color: #ffc9bb;
     border-radius: 60%;
 }
+.person-name{
+    color: #F34213;
+    margin-left: -250px;
+    margin-top: -25px;
+}
+.time-posted{
+    margin-left: -250px;
+    margin-top: -25px;
+}
+.subject{
+
+}
 .discussion-1 {
     border: 1px solid black;
     margin-top: 10%;
@@ -152,3 +164,10 @@ h3{
     border-radius: 10%;
 
  } 
+
+p{
+   
+}
+ #Dashboard:hover {
+    background-color: rgb(227, 6, 6);
+  }
