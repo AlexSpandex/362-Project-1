@@ -1,5 +1,4 @@
 body{
-    margin: 0;
     padding: 0;
     font-family: 'Inter';
     font-size: 22px;
@@ -118,29 +117,31 @@ h3{
     font-weight: bold;
 }
 .person{
-    margin-left: -500px;
+    margin-left: -600px;
     margin-bottom: -50px;
     background-color: #ffc9bb;
     border-radius: 60%;
 }
 .person-name{
     color: #F34213;
-    margin-left: -250px;
+    margin-left: -350px;
     margin-top: -25px;
 }
 .time-posted{
-    margin-left: -250px;
+    margin-left: -350px;
     margin-top: -25px;
 }
 .subject{
-
+    margin: auto;
+    font-weight: 900;
 }
 .discussion-1 {
     border: 1px solid black;
     margin-top: 10%;
     grid-area: 1 / 1 / 2 / 2;
     border-radius: 10%;
-   
+    height: auto;
+    width: 100%;
 } 
 
 .discussion-2 { 

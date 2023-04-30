@@ -1,0 +1,19 @@
+form {
+    margin: 0 auto;
+}
+input[type="submit"] {
+    background-color: #2E2E3A;
+    color: #F34213;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #444456;
+  }
+
+  input[type="text"]#uname, input[type="text"]#pword {
+    border-color: black;
+  }

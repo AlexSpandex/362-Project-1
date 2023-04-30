@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="index.css">
-
+    
         <!--Favicon Icon-->
         <link rel="icon" type="image/x-icon" href="icons/elephant.png">
     </head>
@@ -43,7 +43,7 @@
                 </div>
 
                 <div id="Login">
-                    <a href="index.html"><h3>Login</h3></a> 
+                    <a href="signin.html"><h3>Login</h3></a> 
                 </div>
 
             </div>
@@ -51,19 +51,24 @@
         </div>
         
         <div class="question-container">
-
+            <br><br>
             <div class="ask-question">
                 <h2>Ask a Question</h2>
             </div>
 
-            <form >
-                <input type="text" id="subject-input" name="subject-input" placeholder="Subject"><br><br>
-                
-                <input type="text" id="question-input" name="question-input" placeholder="Question"><br><br>
-
-                <input type="submit" value="Submit">
-            </form>
-
+            <form id="discussion-form" method="POST" action="/submit-discussion-post">
+                <label>
+                  Subject:
+                  <input type="text" name="subject">
+                </label>
+                <br>
+                <label>
+                  Question:
+                  <textarea name="question"></textarea>
+                </label>
+                <br>
+                <button type="submit">Submit</button>
+              </form>
         </div>
         
         
@@ -74,32 +79,39 @@
                 <img class="person" src="icons/person.png" alt="person" width="50" height="50">
                 <div class="person-name"><h3>Juan Ramirez</h3></div>
                 <div class="time-posted"><p>January 1, 2020</p></div>
-     
+                <h3 class="subject">Subject</h3>
+
                 <p>It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. 
                     For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.
                      Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, 
                      let him run away from the pain. Unless they are blinded by lust, they do not come out; they are in fault 
-                     who abandon their duties and soften their hearts, that is toil.
+                     who abandon their duties and soften their hearts, that is toil. 
                 </p>
+
             </div>
 
             <div class="discussion-2">
+
                 <img class="person" src="icons/person.png" alt="person" width="50" height="50">
                 <div class="person-name"><h3>James Potter</h3></div>
                 <div class="time-posted"><p>February 14, 2023</p></div>
-               
+                <h3 class="subject">Subject</h3>
+
                 <p>It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. 
                     For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.
                      Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, 
                      let him run away from the pain. Unless they are blinded by lust, they do not come out; they are in fault 
                      who abandon their duties and soften their hearts, that is toil.
                 </p>
+
             </div>
 
             <div class="discussion-3">
+
                 <img class="person" src="icons/person.png" alt="person" width="50" height="50">
                 <div class="person-name"><h3>Peter Parker</h3></div>
                 <div class="time-posted"><p>July 4, 1999</p></div>
+                <h3 class="subject">Subject</h3>
                 
                 <p>It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. 
                     For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.
@@ -107,18 +119,19 @@
                      let him run away from the pain. Unless they are blinded by lust, they do not come out; they are in fault 
                      who abandon their duties and soften their hearts, that is toil.
                 </p>
+
             </div>
 
             <div class="discussion-4">
+
                 <img class="person" src="icons/person.png" alt="person" width="50" height="50">
                 <div class="person-name"><h3>Burger King</h3></div>
                 <div class="time-posted"><p>August 12, 1934</p></div>
-                <p>It is important to take care of the patient, to be followed by the doctor, but it is a time of great pain and suffering. 
-                    For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it.
-                     Do not be angry with the pain in the rebuke, in the pleasure he wants to be a hair from the pain, 
-                     let him run away from the pain. Unless they are blinded by lust, they do not come out; they are in fault 
-                     who abandon their duties and soften their hearts, that is toil.
+                <h3 class="subject">Subject</h3>
+
+                <p>It is 
                 </p>
+
             </div>
 
         </div>
